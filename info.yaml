@@ -1,0 +1,34 @@
+- name: "vasa rani akshaya"
+  dob: "25-01-2003"
+  mobilenumber: 9234578344
+  addresses:
+  - type: temporary
+    flatno: 234
+    street: "TTD street"
+    city: "palakollu"
+    state: "Andhra Pradesh"
+    
+
+  - type: permanent  
+    flatno: 234
+    street: "TTD street"
+    city: "palakollu"
+    state: "Andhra Pradesh"
+
+
+- name: "vasa vara lakshmi"
+  dob: "25-01-2003"
+  mobilenumber: 9234578344
+  addresses:
+  - type: temporary
+    flatno: 234
+    street: "TTD street"
+    city: "palakollu"
+    state: "Andhra Pradesh"
+    
+
+  - type: permanent  
+    flatno: 234
+    street: "TTD street"
+    city: "palakollu"
+    state: "Andhra Pradesh"

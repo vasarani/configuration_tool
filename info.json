@@ -1,0 +1,41 @@
+{   "students": [
+    {
+         "firstname": "vasa rani akshaya",
+    "dob": "25-01-2003",
+    "addresses": [
+        {
+            "type": "temporary",
+            "flatno": "234",
+            "City": "palakollu",
+            "state": "Andhra pradesh"
+        },
+        {
+            "type": "permanent",
+            "flatno": "234",
+            "City": "palakollu",
+            "state": "Andhra pradesh"
+        }
+    ],
+    "Skills": ["java" , "AWS" , "DevOps"]
+    }
+],
+
+     "firstname": "vasa rani akshaya",
+    "dob": "25-01-2003",
+    "addresses": [
+        {
+            "type": "temporary",
+            "flatno": "234",
+            "City": "palakollu",
+            "state": "Andhra pradesh"
+        },
+        {
+            "type": "permanent",
+            "flatno": "234",
+            "City": "palakollu",
+            "state": "Andhra pradesh"
+        }
+    ],
+    "Skills": ["java" , "AWS" , "DevOps"]
+    
+}
