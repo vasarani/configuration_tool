@@ -2,8 +2,6 @@
   hosts: local
   connection: local
   tasks:
-    - name: task level variables
-      vars: 
-        course: "DOCKERS"
+    - name: print variables
       ansible.builtin.debug:
         msg: "Course is: {{course}}"    
