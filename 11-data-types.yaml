@@ -1,0 +1,25 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+    Course: "DevSecOps with AWS" #string
+    Duration: 140H #int/number
+    Is_Live: true #bool
+    Details: #map/dictionary {}
+     Months: 4
+     Trainer: "sivakumar"
+    Topics: #list []
+     - Linux
+     - Shell
+     - Ansible
+     - Terraform
+  tasks: 
+    - name: print variables
+      ansible.builtin.debug:
+        msg: |
+          program: {{Course}}
+          Duration: {{Duration}}
+          Is_Live: {{Is_Live}}
+          Details: {{Details}}
+          Topics: {{Topics}}
+
