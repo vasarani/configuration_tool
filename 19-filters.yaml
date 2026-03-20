@@ -3,6 +3,7 @@
   connection: local
   vars:
     topics: linux, shell, ansible, terraform 
+    course: "DevOps With AWS"
     tagsMap: 
       name: Ansible
       project: Roboshop
@@ -41,5 +42,12 @@
         info_yaml: "{{ lookup('file', 'info.yaml') | from_yaml }}"
     - name: convert yaml to json
       ansible.builtin.debug:
-        msg: "{{ info_yaml | to_nice_json }}"          
+        msg: "{{ info_yaml | to_nice_json }}"  
+
+    - name: convert to upper case
+      ansible.builtin.debug:
+        msg: "{{ course | upper }}" 
+    - name: convert to lower case
+      ansible.builtin.debug:
+        msg: "{{ course | lower }}"                
     
