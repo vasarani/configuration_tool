@@ -1,8 +1,8 @@
 - name: Variable Prefences
   hosts: local
   connection: local
-  vars: 
-    NAME: "Ansible From PLAY"
+  # vars: 
+  #   NAME: "Ansible From PLAY"
   # vars_files:
   #   - course(5).yaml
   # vars_prompt:
@@ -20,5 +20,5 @@
 # 2. TASKS
 # 3. FILES
 # 4. Prompt
-# 5.
-# 6.
+# 5. Play
+# 6. Inventory
