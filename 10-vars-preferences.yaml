@@ -1,0 +1,18 @@
+- name: Variable Prefences
+  hosts: local
+  connection: local
+  vars: 
+    NAME: "Ansible From PLAY"
+  vars_files:
+    - course(5).yaml
+  vars_prompt:
+    - name: NAME
+      prompt: please enter your username
+      private: true
+  tasks: 
+    - name: print name
+      vars:
+        NAME: "Ansible from TASK"
+        ansible.builtin.debug:
+          msg: "HELLOW {{NAME}}"
+
