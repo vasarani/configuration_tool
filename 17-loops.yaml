@@ -5,7 +5,8 @@
   tasks: 
    - name: install package
      ansible.builtin.package:
-       msg: "{{ item }}"
+       name: "{{ item }}"
+       state: present
      loop:
      - mysql
      - nginx
